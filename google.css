@@ -1,0 +1,48 @@
+.main { 
+    margin-top: 100px;
+    text-align: center;
+}
+.sel_img {  
+     display: block;
+     width: 300px;
+     height: 300px;
+     margin-left: auto; /* we can make the auto a number like 400px, 500px... */
+     margin-right: auto;
+     margin-bottom: 5px;
+
+}
+.sel_input { 
+    display: block;/* up and down endihonulun new vertically*/
+    width: 600px;
+    line-height: 1x;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid;
+    border-color: #dfe1e5; 
+    border-radius: 24px;
+}
+
+.btn_wrapper {  /*using flex box*/
+     display:flex;  /*displays them and lay*/
+     justify-content: center;/* allings them to the center
+     justify-content: space-around; */
+
+}
+
+.buttons {
+    display: inline ;
+    width:150px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 30px;
+    /* we willmake the buttons to align center using flexbox */
+    font-size:14px; 
+    background: #dfe1e5;
+    border: none;
+    padding: 10px;
+    border: 20px;
+}
